@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Змейка</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div id="score">Счет: </div>
     <button id="topButton">Топ игроков</button>
+
     <canvas id="gameCanvas" width="600" height="600"></canvas>
+
     <div id="gameOverScreen" class="overlay hidden">
         <p>game over</p>
         <button id="restartButton">Заново</button>
     </div>
-    <div id="startScreen" class="overlay">
-         <p>Введи имя</p>
-          <input id="nameInput" maxlength="20" placeholder="Имя"> 
-          <button id="startButton">Играть</button>
-         </div>
 
-         <div id="startScreen" class="overlay">
+    <div id="startScreen" class="overlay">
         <p>Введи имя</p>
         <input id="nameInput" maxlength="20" placeholder="Имя">
         <button id="startButton">Играть</button>
@@ -29,7 +29,9 @@
         <ol id="leaderboardList"></ol>
         <button id="closeLeaderboardButton">Закрыть</button>
     </div>
-    
+
     <script src="game.js"></script>
+
 </body>
+
 </html>
